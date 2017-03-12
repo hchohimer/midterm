@@ -544,6 +544,13 @@ body {
   font-family: "Amiko", sans-serif;
 }
 
+main {
+  background-color: #d5b9a0;
+  width: 80%;
+  margin-left: 10%;
+  padding: 5px;
+}
+
 a {
   text-decoration: none;
   color: #33332d;
@@ -602,6 +609,27 @@ h2 {
   bottom: 15px;
 }
 
+.storeitem {
+  width: 350px;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+.shoppinglist {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+}
+
+h3 {
+  text-align: center;
+}
+
+@media (max-width: 500px) {
+  .storeitem {
+    width: 150px;
+  }
+}
 /*
  * Hide visually and from screen readers
  */

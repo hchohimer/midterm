@@ -33,7 +33,21 @@ $orange:rgb(255,132,57);
 $darkorange: rgb(255,97,0);
 $grey: rgb(103,114,122);
 $brown: rgb(112,104,94);
+$tan: rgb(213,185,160);
 
 $bigfont: 'Lalezar', cursive;
 $flavorfont: 'Shrikhand', cursive;
 $mainfont: 'Amiko', sans-serif;
+// 
+//
+//
+//
+// /* Changing Susy default global settings */
+// $susy: (
+//   /* Tells Susy to use 12 columns */
+//   columns: 4,
+//   /* Tells Susy that the container has a max-width of 1120px */
+//   container: 1120px,
+//   /* Tells Susy to use border-box */
+//   global-box-sizing: border-box
+//   );

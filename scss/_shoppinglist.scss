@@ -1,0 +1,46 @@
+//
+//
+// @include border-box-sizing;
+// .shoppinglist{
+// @include container;
+// }
+// .content{
+//   @include span(2);
+// }
+// .sidebar{
+//   @include span(1 last)
+// }
+.storeitem{
+  width: 350px;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+
+
+.shoppinglist{
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+}
+
+h3{
+  text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 500px) {
+  .storeitem{
+    width: 150px;
+  }
+
+}
