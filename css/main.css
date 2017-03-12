@@ -613,21 +613,62 @@ h2 {
   width: 350px;
   margin-left: 5px;
   margin-right: 5px;
+  background-color: #9acede;
+  padding: 5px;
+  margin-bottom: 10px;
 }
 
 .shoppinglist {
   display: flex;
   flex-flow: row wrap;
   justify-content: space-around;
+  padding-left: 0;
+}
+
+.listhead {
+  font-family: "Shrikhand", cursive;
+  text-align: center;
+  font-size: 2em;
+  color: #ff6100;
 }
 
 h3 {
   text-align: center;
+  font-family: "Lalezar", cursive;
+  color: #366a7a;
+  margin: 0;
+  padding: 0;
+  font-size: 1.5em;
 }
 
-@media (max-width: 500px) {
+.discription {
+  margin: 0;
+  padding: 0;
+}
+
+.cost {
+  margin: 0;
+  padding: 0;
+}
+
+@media (max-width: 600px) {
   .storeitem {
     width: 150px;
+  }
+
+  .shoppinglist {
+    margin-left: 0;
+    padding-left: 0;
+  }
+}
+@media (min-width: 1700px) {
+  .storeitem {
+    width: 450px;
+  }
+
+  .shoppinglist {
+    margin-left: 0;
+    padding-left: 0;
   }
 }
 /*

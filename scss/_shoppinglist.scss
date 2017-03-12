@@ -14,6 +14,9 @@
   width: 350px;
   margin-left: 5px;
   margin-right: 5px;
+  background-color: $blue;
+  padding: 5px;
+  margin-bottom: 10px;
 }
 
 
@@ -22,10 +25,31 @@
   display: flex;
   flex-flow: row wrap;
   justify-content: space-around;
+  padding-left: 0;
 }
 
+
+.listhead{
+font-family: $flavorfont;
+text-align: center;
+font-size: 2em;
+color: $darkorange;
+}
 h3{
   text-align: center;
+  font-family: $bigfont;
+  color: $darkblue;
+  margin: 0;
+  padding: 0;
+  font-size: 1.5em;
+}
+.discription{
+  margin: 0;
+  padding: 0;
+}
+.cost{
+  margin: 0;
+  padding: 0;
 }
 
 
@@ -37,10 +61,24 @@ h3{
 
 
 
-
-@media (max-width: 500px) {
+@media (max-width: 600px) {
   .storeitem{
     width: 150px;
+  }
+  .shoppinglist{
+    margin-left: 0;
+    padding-left: 0;
+  }
+
+}
+
+@media (min-width: 1700px) {
+  .storeitem{
+    width: 450px;
+  }
+  .shoppinglist{
+    margin-left: 0;
+    padding-left: 0;
   }
 
 }
