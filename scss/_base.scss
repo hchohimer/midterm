@@ -12,6 +12,7 @@ section{
 
 body{
   font-family: $mainfont;
+  font-size: 1em;
 }
 
 main{
@@ -24,7 +25,10 @@ main{
 
 
 footer{
-  width: 100%;
+  width: 80%;
+  margin-left: 10%;
+  margin-right: 10%;
+
   background-color: $brown;
   text-align: center;
 }
@@ -35,6 +39,9 @@ footer{
 .bottomlinks{
   display: inline-flex;
   color: $black;
+  margin-top: 0;
+  margin-bottom: 0;
+    padding-left: 0;
 }
 
 i{
@@ -42,3 +49,27 @@ i{
   font-family: $icon-font;
   font-style: normal;
 }
+
+.logos a {
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-top: 10px;
+}
+
+.copyright{
+  font-size: .5em;
+  i{
+    font-size: 1em;
+  }// i end
+
+}//copyright end
+
+
+@media (max-width: 750px) {
+  body{
+    font-size: .5em;
+  }
+  .bottomlinks{
+    font-size: .25em;
+  }
+};

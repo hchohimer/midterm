@@ -56,3 +56,20 @@ h2{
   position: relative;
   bottom: 15px;
 }
+
+li a:hover{
+  color: $fontorange;
+}
+
+
+
+@media (max-width: 750px) {
+  header{
+    height: 30px;
+  }
+
+  h2{
+    position: relative;
+    bottom: 8px;
+  }
+}

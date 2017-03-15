@@ -3584,6 +3584,7 @@ section {
 
 body {
   font-family: "Amiko", sans-serif;
+  font-size: 1em;
 }
 
 main {
@@ -3594,7 +3595,9 @@ main {
 }
 
 footer {
-  width: 100%;
+  width: 80%;
+  margin-left: 10%;
+  margin-right: 10%;
   background-color: #70685e;
   text-align: center;
 }
@@ -3602,6 +3605,9 @@ footer {
 .bottomlinks {
   display: inline-flex;
   color: #33332d;
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-left: 0;
 }
 
 i {
@@ -3610,6 +3616,28 @@ i {
   font-style: normal;
 }
 
+.logos a {
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-top: 10px;
+}
+
+.copyright {
+  font-size: .5em;
+}
+.copyright i {
+  font-size: 1em;
+}
+
+@media (max-width: 750px) {
+  body {
+    font-size: .5em;
+  }
+
+  .bottomlinks {
+    font-size: .25em;
+  }
+}
 a {
   text-decoration: none;
   color: #33332d;
@@ -3668,6 +3696,20 @@ h2 {
   bottom: 15px;
 }
 
+li a:hover {
+  color: #b24300;
+}
+
+@media (max-width: 750px) {
+  header {
+    height: 30px;
+  }
+
+  h2 {
+    position: relative;
+    bottom: 8px;
+  }
+}
 .storeitem {
   width: 350px;
   margin-left: 5px;
@@ -3710,7 +3752,7 @@ h3 {
   padding: 0;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 750px) {
   .storeitem {
     width: 150px;
   }

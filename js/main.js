@@ -25,15 +25,17 @@ console.log("java on");
 function inputData(){
   console.log("function running");
   var width = $(document).width();
+  console.log(width);
 
   // Larger screen size
-if (width>600) {
+if (width>750) {
     console.log("larger screen loop");
     for (var i = 0; i < 10; i++) {
       var titleHolder = "title"+(i+1)
       var imageHolder = "image"+(i+1);
       var discriptionHolder = "discription"+(i+1);
       var priceHolder = "price"+(i+1);
+      console.log(titleHolder);
 
       document.getElementById(titleHolder).innerHTML = displayStuff[i].item;
       document.getElementById(imageHolder).src = displayStuff[i].lPhoto;
@@ -57,7 +59,7 @@ if (width>600) {
     }
   }
   // Smaller screen size
-  if (width<=600) {
+  if (width<=750) {
     console.log('smaller screen');
     for (var i = 0; i < 10; i++) {
       var titleHolder = "title"+(i+1)
