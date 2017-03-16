@@ -46,3 +46,43 @@
 
   }//section end
 }//aboutbody end
+
+.cheapstuff, .funstuff, .expensivestuff{
+  border-style: solid;
+  border-color: $darkorange;
+  border-radius: 30px;
+  margin-top: 10px;
+  margin-bottom: 5px;
+
+
+  ul{
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 0;
+    justify-content: space-around;
+
+    li{
+      // margin: 0;
+    }// li end
+  }//ul end
+}// cheapstuff end
+
+
+.message{
+  margin-left: 15%;
+  margin-right: 15%;
+  width: 70%;
+  border-style: none none double double;
+  border-radius: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 10px;
+  padding-top: 10px;
+  border-width: thick;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  font-family: $flavorfont;
+  border-color: $fontorange;
+  background-color: $orange;
+  color: $black;
+}
