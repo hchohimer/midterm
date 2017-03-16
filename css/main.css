@@ -3572,9 +3572,145 @@ textarea {
   padding: 0.2em 0;
 }
 
+.icon1-sprite, .icon1-XLbenedryl, .icon1-XLcuponbook, .icon1-XLglasses, .icon1-XLlazerpen, .icon1-XLlighter, .icon1-XLoldphoto, .icon1-XLramen, .icon1-XLshirt, .icon1-XLwatch, .icon1-XLyellowcup {
+  background-image: url('../img/../img/icon1-sba4f85196b.png');
+  background-repeat: no-repeat;
+}
+
+.icon2-sprite, .icon2-Lbenedryl, .icon2-Lcuponbook, .icon2-Lglasses, .icon2-Llazerpen, .icon2-Llighter, .icon2-Loldphoto, .icon2-Lramen, .icon2-Lshirt, .icon2-Lwatch, .icon2-Lyellowcup {
+  background-image: url('../img/../img/icon2-sf28da8a5da.png');
+  background-repeat: no-repeat;
+}
+
+.icon3-sprite, .icon3-Sbenedryl, .icon3-Scuponbook, .icon3-Sglasses, .icon3-Slazerpen, .icon3-Slighter, .icon3-Soldphoto, .icon3-Sramen, .icon3-Sshirt, .icon3-Swatch, .icon3-Syellowcup {
+  background-image: url('../img/../img/icon3-sd19797f31e.png');
+  background-repeat: no-repeat;
+}
+
+.icon1-XLbenedryl {
+  background-position: 0 0;
+}
+
+.icon1-XLcuponbook {
+  background-position: 0 -400px;
+}
+
+.icon1-XLglasses {
+  background-position: 0 -800px;
+}
+
+.icon1-XLlazerpen {
+  background-position: 0 -1200px;
+}
+
+.icon1-XLlighter {
+  background-position: 0 -1600px;
+}
+
+.icon1-XLoldphoto {
+  background-position: 0 -2000px;
+}
+
+.icon1-XLramen {
+  background-position: 0 -2400px;
+}
+
+.icon1-XLshirt {
+  background-position: 0 -2800px;
+}
+
+.icon1-XLwatch {
+  background-position: 0 -3200px;
+}
+
+.icon1-XLyellowcup {
+  background-position: 0 -3600px;
+}
+
+.icon2-Lbenedryl {
+  background-position: 0 0;
+}
+
+.icon2-Lcuponbook {
+  background-position: 0 -300px;
+}
+
+.icon2-Lglasses {
+  background-position: 0 -600px;
+}
+
+.icon2-Llazerpen {
+  background-position: 0 -900px;
+}
+
+.icon2-Llighter {
+  background-position: 0 -1200px;
+}
+
+.icon2-Loldphoto {
+  background-position: 0 -1500px;
+}
+
+.icon2-Lramen {
+  background-position: 0 -1800px;
+}
+
+.icon2-Lshirt {
+  background-position: 0 -2100px;
+}
+
+.icon2-Lwatch {
+  background-position: 0 -2400px;
+}
+
+.icon2-Lyellowcup {
+  background-position: 0 -2700px;
+}
+
+.icon3-Sbenedryl {
+  background-position: 0 0;
+}
+
+.icon3-Scuponbook {
+  background-position: 0 -100px;
+}
+
+.icon3-Sglasses {
+  background-position: 0 -200px;
+}
+
+.icon3-Slazerpen {
+  background-position: 0 -300px;
+}
+
+.icon3-Slighter {
+  background-position: 0 -400px;
+}
+
+.icon3-Soldphoto {
+  background-position: 0 -500px;
+}
+
+.icon3-Sramen {
+  background-position: 0 -600px;
+}
+
+.icon3-Sshirt {
+  background-position: 0 -700px;
+}
+
+.icon3-Swatch {
+  background-position: 0 -800px;
+}
+
+.icon3-Syellowcup {
+  background-position: 0 -900px;
+}
+
 body {
   background-color: #70685e;
   color: #33332d;
+  display: block;
 }
 
 section {
@@ -3687,7 +3823,7 @@ header {
 h2 {
   font-family: "Shrikhand", cursive;
   font-size: 1.05em;
-  color: #ff6100;
+  color: #9acede;
   -webkit-text-fill-color: #ff8439;
   -webkit-text-stroke-width: .05px;
   -webkit-text-stroke-color: #33332d;
@@ -3752,6 +3888,12 @@ h3 {
   padding: 0;
 }
 
+li img {
+  display: block;
+  width: 350px;
+  height: 300px;
+}
+
 @media (max-width: 750px) {
   .storeitem {
     width: 150px;
@@ -3760,6 +3902,12 @@ h3 {
   .shoppinglist {
     margin-left: 0;
     padding-left: 0;
+  }
+
+  li img {
+    display: block;
+    width: 150px;
+    height: 100px;
   }
 }
 @media (min-width: 1700px) {
@@ -3770,6 +3918,12 @@ h3 {
   .shoppinglist {
     margin-left: 0;
     padding-left: 0;
+  }
+
+  li img {
+    display: block;
+    width: 450px;
+    height: 400px;
   }
 }
 /*

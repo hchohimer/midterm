@@ -1,7 +1,14 @@
+@import '../img/icon1/*.png';
+@import '../img/icon2/*.png';
+@import '../img/icon3/*.png';
+@include all-icon1-sprites;
+@include all-icon2-sprites;
+@include all-icon3-sprites;
 
 body{
   background-color: $brown;
   color: $black;
+  display: block;
 }
 
 section{

@@ -1,4 +1,4 @@
-//
+
 //
 // @include border-box-sizing;
 // .shoppinglist{
@@ -53,6 +53,12 @@ h3{
 }
 
 
+li img{
+  display: block;
+  width: 350px;
+  height: 300px;
+}
+
 
 
 
@@ -69,7 +75,11 @@ h3{
     margin-left: 0;
     padding-left: 0;
   }
-
+  li img{
+    display: block;
+    width: 150px;
+    height: 100px;
+  }
 }
 
 @media (min-width: 1700px) {
@@ -81,4 +91,9 @@ h3{
     padding-left: 0;
   }
 
+  li img{
+    display: block;
+    width: 450px;
+    height: 400px;
+  }
 }
