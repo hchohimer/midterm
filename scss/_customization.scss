@@ -1,0 +1,48 @@
+
+
+.aboutbody{
+  border-radius: 20px;
+  margin-top: 20px;
+  padding-top: 30px;
+  padding-bottom: 60px;
+  width: 70%;
+  margin-right: 15%;
+  margin-left: 15%;
+  color: rgb(30,30,30);
+
+  h3{
+  margin-top: 15px;
+  }// h3 end
+
+  section{
+
+  margin-left: 15%;
+  margin-right: 15%;
+  width: 70%;
+  border-style: none none double double;
+  border-color: $darkblue;
+  border-radius: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 10px;
+  padding-top: 10px;
+  border-width: thick;
+  background-color: $blue;
+
+  @media (max-width: 750px){
+
+    margin-left: 20px;
+    margin-top: 20px;
+    font-size: 1.1em;
+  }
+
+    p{
+
+    }// p end
+
+
+
+
+
+  }//section end
+}//aboutbody end

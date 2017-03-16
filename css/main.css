@@ -3926,6 +3926,41 @@ li img {
     height: 400px;
   }
 }
+.aboutbody {
+  border-radius: 20px;
+  margin-top: 20px;
+  padding-top: 30px;
+  padding-bottom: 60px;
+  width: 70%;
+  margin-right: 15%;
+  margin-left: 15%;
+  color: #1e1e1e;
+}
+.aboutbody h3 {
+  margin-top: 15px;
+}
+.aboutbody section {
+  margin-left: 15%;
+  margin-right: 15%;
+  width: 70%;
+  border-style: none none double double;
+  border-color: #366a7a;
+  border-radius: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 10px;
+  padding-top: 10px;
+  border-width: thick;
+  background-color: #9acede;
+}
+@media (max-width: 750px) {
+  .aboutbody section {
+    margin-left: 20px;
+    margin-top: 20px;
+    font-size: 1.1em;
+  }
+}
+
 /*
  * Hide visually and from screen readers
  */
